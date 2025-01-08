@@ -18,9 +18,6 @@ const countries = [
     { label: 'Russiya', value: 'russiya' },
     { label: 'Malaysia', value: 'malaysia' },
     { label: 'Argentina', value: 'argentina' },
-
-
-
     { label: 'Norway', value: 'norway' },
     { label: 'Philippines', value: 'philippines' },
     { label: 'Thailand', value: 'thailand' },
@@ -30,10 +27,6 @@ const cities = [
     { label: 'Ahemdabad', value: 'ahemdabad' },
     { label: 'Patan', value: 'patan' },
     { label: 'Rajakot', value: 'rajakot' },
-
-
-
-
     { label: 'Vadodara', value: 'vadodara' },
     { label: 'Junagadh', value: 'junagadh' },
     { label: 'Jamanagar', value: 'jamanagar' },
@@ -83,9 +76,6 @@ export const FormScreen = ({ navigation }: ApplicationScreenProps) => {
     }
 
     const savedData = async () => {
-
-
-
         if (isEnabled) {
             const data = {
                 profile: imageUri,
@@ -146,7 +136,7 @@ export const FormScreen = ({ navigation }: ApplicationScreenProps) => {
     const [countryError, setCountryError] = useState('');
     const [cityError, setCityError] = useState('');
     const [ageError, setAgeError] = useState('');
-    const [interestError, setInterestError] = useState('');  // New state for checkbox validation
+    const [interestError, setInterestError] = useState('');
 
     const validateForm = () => {
         let valid = true;
