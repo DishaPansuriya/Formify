@@ -76,6 +76,9 @@ export const FormScreen = ({ navigation }: ApplicationScreenProps) => {
     }
 
     const savedData = async () => {
+
+
+
         if (isEnabled) {
             const data = {
                 profile: imageUri,
