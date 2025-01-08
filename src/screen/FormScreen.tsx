@@ -18,6 +18,9 @@ const countries = [
     { label: 'Russiya', value: 'russiya' },
     { label: 'Malaysia', value: 'malaysia' },
     { label: 'Argentina', value: 'argentina' },
+
+
+
     { label: 'Norway', value: 'norway' },
     { label: 'Philippines', value: 'philippines' },
     { label: 'Thailand', value: 'thailand' },
@@ -27,8 +30,12 @@ const cities = [
     { label: 'Ahemdabad', value: 'ahemdabad' },
     { label: 'Patan', value: 'patan' },
     { label: 'Rajakot', value: 'rajakot' },
+
+
+
+    
     { label: 'Vadodara', value: 'vadodara' },
-    { label: 'Junagadh', value: 'junagadh' },
+    { label: 'Junagadh', value: 'junagadh' },    
     { label: 'Jamanagar', value: 'jamanagar' },
     { label: 'Gandhinagar', value: 'gandhinagar' },
     { label: 'Botad', value: 'botad' },
