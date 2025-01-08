@@ -12,7 +12,7 @@ import { SwitchClass } from "../components/SwitchClass";
 import { ProfileClass } from "../components/ProfileClass";
 
 const countries = [
-    { label: 'India', value: 'india' },
+    { label: 'India', value: 'India' },
     { label: 'United State', value: 'united state' },
     { label: 'Pakistan', value: 'pakistan' },
     { label: 'Russiya', value: 'russiya' },
@@ -33,9 +33,9 @@ const cities = [
 
 
 
-    
+
     { label: 'Vadodara', value: 'vadodara' },
-    { label: 'Junagadh', value: 'junagadh' },    
+    { label: 'Junagadh', value: 'junagadh' },
     { label: 'Jamanagar', value: 'jamanagar' },
     { label: 'Gandhinagar', value: 'gandhinagar' },
     { label: 'Botad', value: 'botad' },
