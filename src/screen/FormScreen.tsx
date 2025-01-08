@@ -30,10 +30,7 @@ const cities = [
     { label: 'Patan', value: 'patan' },
     { label: 'Rajakot', value: 'rajakot' },
     { label: 'Vadodara', value: 'vadodara' },
-    { label: 'Junagadh', value: 'junagadh' },
-
-
-    
+    { label: 'Junagadh', value: 'junagadh' },    
     { label: 'Jamanagar', value: 'jamanagar' },
     { label: 'Gandhinagar', value: 'gandhinagar' },
     { label: 'Botad', value: 'botad' },
