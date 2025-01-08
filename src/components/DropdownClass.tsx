@@ -8,6 +8,7 @@ interface RadioButtonOption {
 }
 
 interface UserDropdown {
+
     isFocus: boolean;
     onFocus: () => void;
     onBlur: () => void;
