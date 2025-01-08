@@ -11,9 +11,6 @@ import { SliderClass } from "../components/SliderClass";
 import { SwitchClass } from "../components/SwitchClass";
 import { ProfileClass } from "../components/ProfileClass";
 
-
- 
-
 const countries = [
     { label: 'India', value: 'india' },
     { label: 'United State', value: 'united state' },
@@ -24,6 +21,8 @@ const countries = [
     { label: 'Norway', value: 'norway' },
     { label: 'Philippines', value: 'philippines' },
     { label: 'Thailand', value: 'thailand' },
+
+
 ];
 const cities = [
     { label: 'Surat', value: 'surat' },
@@ -32,6 +31,9 @@ const cities = [
     { label: 'Rajakot', value: 'rajakot' },
     { label: 'Vadodara', value: 'vadodara' },
     { label: 'Junagadh', value: 'junagadh' },
+
+
+    
     { label: 'Jamanagar', value: 'jamanagar' },
     { label: 'Gandhinagar', value: 'gandhinagar' },
     { label: 'Botad', value: 'botad' },
