@@ -14,7 +14,7 @@ import { ProfileClass } from "../components/ProfileClass";
 const countries = [
     { label: 'India', value: 'india' },
     { label: 'United State', value: 'united state' },
-    { label: 'Pakistan', value: 'russiya to india' },
+    { label: 'Pakistan', value: 'Pakistan' },
     { label: 'Russiya', value: 'russiya' },
     { label: 'Malaysia', value: 'malaysia' },
     { label: 'Argentina', value: 'argentina' },
