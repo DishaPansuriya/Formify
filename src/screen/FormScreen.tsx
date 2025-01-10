@@ -54,7 +54,6 @@ export const FormScreen = ({ navigation }: ApplicationScreenProps) => {
         { label: 'Female', value: 'Female' },
         { label: 'Other', value: 'Other' },
     ];
-
     const openGallary = () => {
         const options: any = {
             mediaType: 'photo',
@@ -140,7 +139,6 @@ export const FormScreen = ({ navigation }: ApplicationScreenProps) => {
 
     const validateForm = () => {
         let valid = true;
-
         if (firstName === '') {
             setFirstNameError('First Name is required');
             valid = false;
