@@ -13,14 +13,11 @@ import { ProfileClass } from "../components/ProfileClass";
 
 const countries = [
     { label: 'India', value: 'india' },
-    { label: 'United State', value: 'united state' },
-    { label: 'Pakistan', value: 'Pakistan' },
-    { label: 'Russiya', value: 'russiya' },
+    { label: 'India', value: 'united state' },
+    { label: 'India', value: 'Pakistan' },
+    { label: 'India', value: 'russiya' },
     { label: 'Malaysia', value: 'malaysia' },
     { label: 'Argentina', value: 'argentina' },
-
-
-
     { label: 'Norway', value: 'norway' },
     { label: 'Philippines', value: 'philippines' },
     { label: 'Thailand', value: 'thailand' },
@@ -30,10 +27,6 @@ const cities = [
     { label: 'Ahemdabad', value: 'ahemdabad' },
     { label: 'Patan', value: 'patan' },
     { label: 'Rajakot', value: 'rajakot' },
-
-
-
-
     { label: 'Vadodara', value: 'vadodara' },
     { label: 'Junagadh', value: 'junagadh' },
     { label: 'Jamanagar', value: 'jamanagar' },
@@ -124,7 +117,7 @@ export const FormScreen = ({ navigation }: ApplicationScreenProps) => {
             setIsEnabled(userData.data.save)
         }
     }
-
+    
     const resetForm = () => {
         setFirstName('')
         setLastName('')
